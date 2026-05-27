@@ -1,0 +1,1 @@
+In this The Odin Project assignment I have to reproduce a given design of an Admin Dashboard using CSS Grid for the layout.
