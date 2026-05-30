@@ -5,7 +5,6 @@ body {
     display: grid;
     grid-template-rows: repeat(6, 1fr);
     grid-template-columns: repeat(9, 1fr);
-    
 }
 
 p {
@@ -78,18 +77,18 @@ svg {
     grid-template-columns: 2fr 1fr;
 }
 
+#header > svg {
+    height: 3vh;
+    width: 3vw;
+    padding: 0;
+}
+
 #searchbar {
     grid-column: 1;
     grid-row: 1;
     display:flex;
     justify-content: center;
     align-items: center;
-}
-
-#searchbar > svg {
-    height: 3vh;
-    width: 3vw;
-    padding: 0;
 }
 
 input {
@@ -104,7 +103,18 @@ input {
 #userLogged {
     grid-column: 2;
     grid-row: 1;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
 }
+
+#userLogged > img {
+    height: 6vh;
+    width: 6vw;
+    margin-right: 8%;
+}
+
 
 #welcome {
     grid-column: 1;
