@@ -110,15 +110,34 @@ input {
 }
 
 #userLogged > img {
-    height: 6vh;
-    width: 6vw;
-    margin-right: 8%;
+    height: 4vh;
+    width: auto;
+    margin-right: 6%;
 }
 
 
 #welcome {
     grid-column: 1;
     grid-row: 2;
+    display:flex;
+    justify-content: start;
+    align-items: center;
+    font-weight: bold;
+}
+
+#welcome > img {
+    height: 6vh;
+    width: auto;
+    padding-left: 10%;
+    padding-right: 3%;
+}
+
+#hi {
+    font-size: 0.8rem;
+}
+
+#userWelcome {
+    font-size: 1.4rem;
 }
 
 #nusButtons {
