@@ -198,9 +198,6 @@ input {
 
 .highBox{
     background-color: white;
-    display: flex;
-    justify-content: center;
-    align-content: center;
     margin-right: 10%;
     border-radius: 16px;
     padding: 5%;
@@ -210,6 +207,7 @@ input {
     grid-column: 10/13;
     grid-row: 2/7;
     font-size: 0.6rem;
+    display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-content: center;
@@ -232,4 +230,29 @@ input {
 #trend {
     grid-column: 10/13;
     grid-row: 8/13;
+    display:grid;
+    grid-template-columns: 1;
+    grid-template-rows: 4;
+
+}
+
+.trendingUser {
+    display: flex;
+    align-items: center;
+}
+
+.trendingUser > img {
+    height: 4vh;
+    width: auto;
+    margin-right: 5%;
+}
+
+.tUat {
+    font-size: 0.8;
+    font-weight: bold;
+}
+
+.tAn {
+    font-size: 0.6;
+    color:grey;
 }
