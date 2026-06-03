@@ -196,14 +196,40 @@ input {
     background-color: brown;
 }
 
+.highBox{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-right: 10%;
+    border-radius: 16px;
+    padding: 5%;
+}
+
 #ann {
     grid-column: 10/13;
     grid-row: 2/7;
-    background-color: green;
+    font-size: 0.6rem;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.annoTitle {
+    font-size: 0.8;
+    font-weight: bold;
+}
+
+#annoMid {
+    border: 1px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-color: rgb(226, 222, 222);
+    padding-bottom: 3%;
+    padding-top: 3%;
 }
 
 #trend {
     grid-column: 10/13;
     grid-row: 8/13;
-    background-color: green;
 }
